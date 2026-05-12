@@ -1,0 +1,44 @@
+body{
+margin:0;
+font-family:Arial;
+background:#fff0f5;
+color:#333;
+}
+
+header{
+background:#ff69b4;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+.hero img{
+width:100%;
+}
+
+section{
+padding:40px;
+}
+
+h2{
+color:#ff1493;
+}
+
+.services ul{
+list-style:none;
+padding:0;
+}
+
+.services li{
+background:white;
+margin:10px 0;
+padding:15px;
+border-radius:10px;
+}
+
+footer{
+background:#ff69b4;
+color:white;
+text-align:center;
+padding:20px;
+  }
