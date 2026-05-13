@@ -41,4 +41,17 @@ background:#ff69b4;
 color:white;
 text-align:center;
 padding:20px;
-  }
+  }<style>
+.whatsapp-btn{
+background:#25D366;
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+display:inline-block;
+}
+.whatsapp-btn:hover{
+background:#1ebe5d;
+}
+</st
