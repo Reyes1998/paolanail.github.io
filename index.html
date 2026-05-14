@@ -293,8 +293,41 @@ Gracias por apoyar mi  negocio y confiar en paola Nails para consentirte y resal
   </section>
   <section class="gallery">
 <h2>Nuestros Diseños</h2>
-<div class="gallery-grid">
 
+<style>
+.slider {
+width: 100%;
+max-width: 500px;
+margin: auto;
+position: relative;
+}
+
+.slide {
+width: 100%;
+display: none;
+border-radius: 15px;
+}
+</style>
+
+<script>
+let index = 0;
+const slides = document.getElementsByClassName("slide");
+
+function showSlides() {
+for (let i = 0; i < slides.length; i++) {
+slides[i].style.display = "none";
+}
+
+index++;
+if (index > slides.length) { index = 1 }
+
+slides[index - 1].style.display = "block";
+setTimeout(showSlides, 2000); // cambia cada 2 segundos
+}
+
+showSlides();
+</script>
+  
 <img src="images/IMG_0826.jpeg" alt="Diseño de uñas elegante">
 <img src="images/IMG_3440.jpeg" alt="Profecional Nails">
 <img src="images/IMG_1044.jpeg" alt="Uñas acrílicas modernas">
